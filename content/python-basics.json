@@ -1,6 +1,6 @@
 {
   "ps_hello": {
-      "initial": "print(\"hello\")\nprint(\"world\")",
+      "initial": "print(\"hello\")\nprint(\"world!\")",
       "unittest": "",
       "instructions": "Construct a program that prints out hello and world on separate lines.",
       "type": "SIMPLE",
