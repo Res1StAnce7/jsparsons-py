@@ -48,8 +48,9 @@ describe('Content module acos-jsparsons-python', () => {
     }]);
   }
 
-  describe('Exercise ps_hello', () => {
 
+
+  describe('Exercise ps_hello', () => {
     it('exercise page should open and have main components', () => {
       browser.url('/html/jsparsons/jsparsons-python/ps_hello');
       hasEachOnce(['#ul-sortableTrash', '#sortable']);
