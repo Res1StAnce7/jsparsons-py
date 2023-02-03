@@ -712,13 +712,13 @@
     "order": 75
   },
   "ps_python_subtract": {
-    "initial": "def(subtract):\n\treturn 3-2\nsubtract()",
+    "initial": "def sub_two(a, b):\n\treturn a - b\nprint(sub_two(3, 2))",
     "unittest": "",
-    "instructions": "Construct a program that subtracts 2 from 3 and prints out the result.",
+    "instructions": "Construct a program that subtracts a from b and prints out the result.",
     "type": "SIMPLE",
     "title": "",
-    "description": "Creating a function that performs subtration",
-    "concepts": ["FunctionDef","Assign","arg","Return","Call","Constant","Add"],
+    "description": "Creating a function that performs subtraction and returns the result",
+    "concepts": ["Return", "Int", "Add", "Call", "arg", "FunctionDef"],
     "order": 76
   }
 }
