@@ -711,7 +711,7 @@
     "concepts": ["Lt","Sub","Mod","Assign","While","Call","Index","NotEq","If","Add","AugAssign","List","Eq","Int"],
     "order": 75
   },
-  "ps_subtract": {
+  "ps_python_subtract": {
     "initial": "def(subtract):\n\treturn 3-2\nsubtract()",
     "unittest": "",
     "instructions": "Construct a program that subtracts 2 from 3 and prints out the result.",
